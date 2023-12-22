@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-bodies = {"Sodavand": "body.sodavand", "Vand & danskvand": "body.vand", "Energidrikke": "body.energidrikke"}
+bodies = {"Sodavand": "body.sodavand", "Vand & danskvand": "body.vand", "Energidrikke": "body.energidrikke", "Øl": "body.oel"}
 current_date = datetime.now().strftime("%d/%m/%Y")
 with open("header", "r", encoding='utf-8') as f:
     headers = json.load(f)
